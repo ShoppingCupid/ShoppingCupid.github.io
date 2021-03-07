@@ -1,2 +1,2 @@
 # ShoppingCupid.github.io
-Shop website(training)
+Project website
