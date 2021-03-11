@@ -2,21 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>ShoppingCupid</title>
         <style>
                 #background {
                     background-color: rgb(245, 227, 237);
-                }
-                h1 {
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
-                    text-align: center;
-                    color: rgb(245, 89, 180);
-                }
-                ul {
-                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    position: absolute;
-                    top: 400px;
-                    left: 650px;
                 }
                 #CoachMiniSBlu {
                     position:absolute;
@@ -68,18 +57,21 @@
                     top: 1072px;
                     left: 61em;
                 }
+                #CoachTopLink {
+                    position:absolute;
+                    top: 50em;
+                    left: 50em;
+                }
         </style>
     </head>
-    <body id="background">
-        <p><a href="https://shoppingcupid.github.io/"></a></p>
-        <img src="https://user-images.githubusercontent.com/80187625/110231740-862cde80-7f54-11eb-8b30-76f8201240dd.png" alt="https://shoppingcupid.github.io/" width="100%">
-        <h1>Our Available Items</h1>
+    <body id="background"></body>
+        <a href="./index.html">
+            <img src="https://user-images.githubusercontent.com/80187625/110231740-862cde80-7f54-11eb-8b30-76f8201240dd.png" width="25%"></img>
+        </a>
         <div id="itemlist">
-        <ul>
-            <li><a href="#CoachMiniSBlu">COACH</a></li>
-            <li><a href="#KSPatt">KATE SPADE</a></li>
-            <li><a href="#MKPBlu">MICHAEL KORS</a></li>          
-        </ul>
+        <p #id="CoachTopLink"><a href="#CoachMiniSBlu">COACH</a></p>
+        <p #id="KSTopLink"><a href="#KSPatt">KATE SPADE</a></p>
+        <p #id="MKTopLink"><a href="#MKPBlu">MICHAEL KORS</a></p>
         </div>
         <img id="CoachMiniSBlu" src="https://user-images.githubusercontent.com/80187625/110276918-25aea780-800f-11eb-9d58-6f1086338664.png" width="240">
         <img id="KSPatt" src="https://user-images.githubusercontent.com/80187625/110278079-87701100-8011-11eb-9023-d9b8445415ae.png" width="300">
